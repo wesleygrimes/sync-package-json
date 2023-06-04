@@ -1,0 +1,9 @@
+{
+  "name": "package-one",
+  "version": "0.0.1",
+  "description": "Package one",
+  "main": "index.js",
+  "type": "module",
+  "author": "Wesley Grimes",
+  "license": "MIT"
+}

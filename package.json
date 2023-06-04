@@ -1,0 +1,33 @@
+{
+  "name": "sync-package-json",
+  "version": "0.0.1",
+  "description": "Used to synchronize package json files in a monorepo, handles deps, devDeps and missing deps.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesleygrimes/sync-package-json.git"
+  },
+  "keywords": [
+    "package-json",
+    "npm",
+    "monorepo",
+    "package",
+    "dependencies"
+  ],
+  "author": "Wesley Grimes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wesleygrimes/sync-package-json/issues"
+  },
+  "homepage": "https://github.com/wesleygrimes/sync-package-json#readme",
+  "dependencies": {
+    "@npmcli/package-json": "^3.1.0",
+    "commander": "^10.0.1",
+    "depcheck": "^1.4.3"
+  }
+}

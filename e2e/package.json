@@ -1,0 +1,13 @@
+{
+  "name": "sync-package-json",
+  "version": "0.0.1",
+  "description": "Used to synchronize package json files in a monorepo, handles deps, devDeps and missing deps.",
+  "main": "index.js",
+  "type": "module",
+  "author": "Wesley Grimes",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^10.0.1",
+    "is-number": "7.0.0"
+  }
+}

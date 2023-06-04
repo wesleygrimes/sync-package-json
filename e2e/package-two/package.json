@@ -1,0 +1,12 @@
+{
+  "name": "package-two",
+  "version": "0.0.1",
+  "description": "Package two",
+  "main": "index.js",
+  "type": "module",
+  "author": "Wesley Grimes",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^10.0.1"
+  }
+}
